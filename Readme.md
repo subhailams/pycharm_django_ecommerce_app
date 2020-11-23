@@ -53,9 +53,14 @@ python manage.py runserver
 
 Starting development server at http://127.0.0.1:8000/
 
+```
+python manage.py createsuperuser
+```
+
+Products can be added to the database using http://127.0.0.1:8000/admin/
 
 Project Structure
-
+```
 ├───accounts
 │   ├───migrations
 │   ├───passwords
@@ -118,7 +123,7 @@ Project Structure
 |__ requirements.txt
 |__ Dockerfile
 |__ Readme.md
-
+```
 ## Licensing
 
 This library is BSD-licensed.
