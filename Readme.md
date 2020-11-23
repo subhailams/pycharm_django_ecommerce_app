@@ -16,8 +16,13 @@ Available Features
 - [x] Package application in a Docker container
 - [ ] Heroku Deployment
 
-You can view a working version of this app
-[here](https://youtu.be/Rr4EOIpiMnM)
+Technology Used:
+* Backend - Python, Javascript,  Django, Django REST API, DbSQLite, Ngnix, Gunicorn, Docker
+* Frontend - HTML, CSS, Bootstrap, Javascript
+
+
+You can view a working version of this app[here](https://youtu.be/Rr4EOIpiMnM)
+
 
 Running this app on your local machine in development will work as
 well by following the steps below:
@@ -46,6 +51,72 @@ python manage.py runserver
 ```
 
 Starting development server at http://127.0.0.1:8000/
+
+
+Project Structure
+
+├───accounts
+│   ├───migrations
+│   ├───passwords
+│   ├───templates
+│   │   └───accounts
+│   │       ├───registeration
+│   │       └───snippets
+│   │           └───emails
+├───addresses
+│   ├───migrations
+│   │   
+│   ├───templates
+│   │   └───addresses
+│   
+├───analytics
+│   ├───migrations
+├───billing
+│   ├───migrations
+│   ├───templates
+│   │   └───billing
+├───cart
+│   ├───migrations
+│   ├───templates
+│   │   └───carts
+│   │       └───snippets
+├───ecommerce
+│   ├───aws
+│   ├───migrations
+│   ├───settings
+├───orders
+│   ├───migrations
+│   ├───templates
+│   │   └───orders
+├───products
+│   ├───fixtures
+│   ├───migrations
+│   ├───templates
+│   │   └───products
+│   │       └───snippets
+├───search
+│   ├───migrations
+│   ├───templates
+│   │   └───search
+├───socialapp
+│   ├───migrations
+│   ├───templates
+│   │   └───socialapp
+├───static_my_proj
+│   ├───css
+│   ├───ecomjs
+│   ├───images
+│   └───js
+└───templates
+    ├───base
+    ├───registeration
+    │   └───emails
+    ├───Rock_Salt
+    └───temp
+|__ manage.py
+|__ requirements.txt
+|__ Dockerfile
+|__ Readme.md
 
 ## Licensing
 
