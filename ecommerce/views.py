@@ -14,7 +14,6 @@ def home_page(request):
     context={
         'allProds':allProds,
     }
-    print(allProds)
     return render(request,"temp/index.html",context)
 
 def logout_page(request):

@@ -12,13 +12,13 @@ ENV DEBUG 0
 RUN apk update \
     && apk add --virtual build-deps gcc python3-dev musl-dev \
     && apk add postgresql-dev \
-    && pip install psycopg2-binary \
+    && pip install psycopg2 \
     && apk del build-deps \
-    && sudo apt install libjpeg8-dev zlib1g-dev \
-    && pip install --ignore-installed pillow
+    && pip install Pillow
+
 
 # install dependencies
-COPY ./requirements.txt .
+COPY ./requirements_production.txt .
 RUN pip install -r requirements_production.txt
 
 # copy project
