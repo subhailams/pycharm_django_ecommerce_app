@@ -13,15 +13,15 @@ Available Features
 - [x] Adding products to the Shopping Cart
 - [x] Mail Integration using twilio SendGrid
 - [x] Secure Payment Gateway (Card, UPI, Paytm)
-- [x] Package application in a Docker container
-- [ ] Heroku Deployment
+- [x] Package application in a Docker container (subhailamathy/techmoto:latest)
+- [x] Heroku Deployment [View App](https://tech--moto2020.herokuapp.com/)
 
 Technology Used:
 * Backend - Python, Javascript,  Django, Django REST API, DbSQLite, Ngnix, Gunicorn, Docker
 * Frontend - HTML, CSS, Bootstrap, Javascript
 
 
-You can view a working version of this app[here](https://youtu.be/Rr4EOIpiMnM)
+You can view a working version of this app [here](https://tech--moto2020.herokuapp.com/)
 
 
 Running this app on your local machine in development will work as
