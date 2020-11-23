@@ -22,7 +22,8 @@ Technology Used:
 
 
 You can view a working version of this app [here](https://tech--moto2020.herokuapp.com/)
-
+Admin Username : narmusanjay@gmail.com
+      Password : Narmadha@1926
 
 Running this app on your local machine in development will work as
 well by following the steps below:
