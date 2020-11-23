@@ -225,12 +225,12 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = "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"
+EMAIL_HOST_PASSWORD = "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"
 EMAIL_PORT = 587
-BASE_URL= 'www.mmenduro.com'
-DEFAULT_FROM_EMAIL = 'Team Enduro <narmusanjay@gmail.com>'
+BASE_URL= 'www.techmoto.herokuapp.com'
+DEFAULT_FROM_EMAIL = 'Team TechMoto <sanjaysan648@gmail.com>'
 EMAIL_BACKEND = "sgbackend.SendGridBackend"
-SENDGRID_API_KEY = "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"
+SENDGRID_API_KEY = "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"
 #https encrypt
 
 CORS_REPLACE_HTTPS_REFERER      = True

@@ -14,7 +14,7 @@ RUN apk update \
     && apk add postgresql-dev \
     && pip install psycopg2 \
     && apk del build-deps \
-    && pip install Pillow
+    && python -m pip install -U --force-reinstall pip
 
 
 # install dependencies
@@ -31,5 +31,6 @@ RUN python manage.py collectstatic --noinput
 RUN adduser -D myuser
 USER myuser
 
-# run gunicorn
-CMD gunicorn hello_django.wsgi:application --bind 0.0.0.0:$PORT
+EXPOSE 8020
+STOPSIGNAL SIGTERM
+CMD ["start-server.sh"]
