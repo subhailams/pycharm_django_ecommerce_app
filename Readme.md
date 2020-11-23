@@ -1,4 +1,6 @@
-# PyCharm Django E-Commerce App
+# PyCharm Django E-Commerce App - TEAM HOPE
+
+Video Demo : https://youtu.be/Rr4EOIpiMnM
 
 Techmoto is an E-commerce Application built using the Python Django 2.8.8 and PyCharm
 
